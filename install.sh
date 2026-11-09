@@ -15,11 +15,11 @@
 set -eu
 
 # ---- settings: edit these ----------------------------------------------
-DISK=/dev/nvme0n1
+DISK=/dev/xxxx
 NEW_HOST=void
-NEW_USER=sachie
-TZ_NAME=Asia/Baku
-COMPOSITOR=sway        # sway or swayfx
+NEW_USER=xxxx
+TZ_NAME=X/X
+COMPOSITOR=x        # sway or swayfx
 REPO=https://repo-default.voidlinux.org/current/musl
 # -------------------------------------------------------------------------
 
