@@ -1,5 +1,5 @@
 #!/bin/sh
-# Void Linux (musl) installer for a Lenovo V15 G4 IRU
+# Void Linux (musl) installer for low-end laptops
 # LUKS2 + Btrfs + runit + Limine + Sway/SwayFX + zsh, no display manager.
 #
 # HOW TO USE
@@ -19,7 +19,7 @@ DISK=/dev/xxxx
 NEW_HOST=void
 NEW_USER=xxxx
 TZ_NAME=X/X
-COMPOSITOR=x        # sway or swayfx
+COMPOSITOR=sway        # sway or swayfx
 REPO=https://repo-default.voidlinux.org/current/musl
 # -------------------------------------------------------------------------
 
